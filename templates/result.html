@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Caption speaker</title>
+</head>
+<body>
+  <h1>Image Caption</h1>
+  <p>{{ caption }}</p>
+  <img src="data:image/png;base64,{{ image }}" alt="Uploaded Image">  <br>
+  <audio controls>
+    <source src="{{ audio_path }}" type="audio/wav">
+  </audio>
+</body>
+</html>
